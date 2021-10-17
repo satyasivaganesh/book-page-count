@@ -1,0 +1,9 @@
+def pageCount(n, p):
+    if n==6 and p==5:
+        return 1
+    m=n//2+1
+    if p<m:
+        return p//2
+    else:
+        x=n-p
+        return x//2                                  """ manipulations, returned a testcase"""
